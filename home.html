@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://kit.fontawesome.com/d3fa3cecaa.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/bootstrapv4.5/css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="libs/bootstrapv4.5/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body id="phono">
+    <section class="col-xl-12 header">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="#"><img src="imgs/logo.png"></a>
+            </div>
+            <div class="right">
+                <ul class="menu">
+                    <li><a href="#" style="color: #eb0028;">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="col-xl-12 slide1">
+        <img src="imgs/phono-slider-2_2000x.jpg" >
+        <div class="container-fluid">
+           <div class="slide_left col-xl-7">
+               <h5 class="slide-text" style="display:inline-block;font-size: 20px;color:#212121;font-weight: 600;margin-bottom: 25px">
+                   4K RESOLUTION
+               </h5>
+               <h2 class="slide-heading" style="font-size: 50px;color:#212121;font-weight: 700;">
+                   EXCLUSIVE STEEL FRAME
+               </h2>
+               <a href="" class="slide-button btn">
+                   BUY NOW
+               </a>
+           </div>
+        </div>
+    </section>
+    <div class="col-xl-12 slide2">
+        <div class="container">
+            <div class="content">
+                <div class="col-xl-4 service">
+                    <img src="imgs/free-deliver-icon_55x.png">
+                    <div class="content_service">
+                        <h6>FREE SHIPPING</h6>
+                        <p>For orders over $50</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 service">
+                    <img src="imgs/offers-icon_55x.png">
+                    <div class="content_service">
+                        <h6>FREE SHIPPING</h6>
+                        <p>For orders over $50</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 service">
+                    <img src="imgs/support-icon_55x.png">
+                    <div class="content_service">
+                        <h6>FREE SHIPPING</h6>
+                        <p>For orders over $50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide3">
+        <div class="container" style="padding: 0">
+            <div class="slide_heading">
+                <h2>WHAT MAKES THE ESSENTIAL DIFFERENT?</h2>
+                <p>EXPERIENCE HIGH PERFORMANCE AND SECURE</p>
+            </div>
+            <div class="col-xl-12" style="padding: 0">
+                <div class="row">
+                    <div class="col-xl-4 slide3_content">
+                        <img src="imgs/ic13_medium.png">
+                        <h2>DUAL CAMERA</h2>
+                        <p>A firm bottom layer, a supportive middle layer, and a soft top layer.</p>
+                    </div>
+                    <div class="col-xl-4 slide3_content">
+                        <img src="imgs/ic12_medium.png">
+                        <h2>INTELLIGENT PROCESSING</h2>
+                        <p>A firm bottom layer, a supportive middle layer, and a soft top layer.</p>
+                    </div>
+                    <div class="col-xl-4 slide3_content">
+                        <img src="imgs/ic11_medium.png">
+                        <h2>8GB DDR5 RAM</h2>
+                        <p>A firm bottom layer, a supportive middle layer, and a soft top layer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide4">
+        <div class="container-fluid" style="padding: 0">
+            <div class="slide_heading">
+                <h2>FIND YOUR PERFECT MATCH</h2>
+                <p>EXPLORE AND FIND RIGHT ONE</p>
+            </div>
+            <div class="row">
+                <div class="tab-content">
+                    <div class="cinema" id="cinema">
+                        <div id="1" class="tab">
+                            <img src="imgs/img-1_73f531ca-ace8-42e4-88b0-7a8de5d93d7e_768x.jpg">
+                            <div class="bg"></div>
+                        </div>
+                        <div id="2" class="tab">
+                            <img src="imgs/img-2_768x.jpg">
+                            <div class="bg"></div>
+                        </div>
+                        <div id="3" class="tab">
+                            <img src="imgs/img-3_768x.jpg">
+                            <div class="bg"></div>
+                        </div>
+                        <div id="4" class="tab">
+                            <img src="imgs/img-4-1_768x.jpg">
+                            <div class="bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                    <button onclick="tabs(this,0)" class="item">
+                        <i style="float: right" class="fas fa-long-arrow-alt-left"></i>
+                    </button>
+                    <button onclick="tabs(this,1)" class="item">
+                        <i style="float: left;" class="fas fa-long-arrow-alt-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide5">
+        <div class="container" style="padding: 0">
+            <div class="slide_heading">
+                <h2>POSSIBILITIES. PERFORMANCE. POWER.</h2>
+                <p>FASTER PROCESSING WITH LESS POWER</p>
+            </div>
+            <div class="row">
+                <div class="hoizontal">
+                    <img src="imgs/horizontal-phone_1920X.png">
+                </div>
+                <div class="col-xl-3 slide5_content">
+                    <div class="chi"><div class="hat"></div></div>
+                    <img src="imgs/ic7_55x.png">
+                    <h2>SCORPION PROCESSOR</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xl-3 slide5_content">
+                    <div class="chi" style="height: 11.8125rem;"><div class="hat"></div></div>
+                    <img src="imgs/ic10_55x.png">
+                    <h2>DUAL SIM CARDS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xl-3 slide5_content">
+                    <div class="chi"><div class="hat"></div></div>
+                    <img src="imgs/ic9_db35a001-6739-4b9f-b1d9-12a825ddf8d9_55x.png">
+                    <h2>48 MP CAMERA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xl-3 slide5_content">
+                    <div class="chi" style="height: 11.8125rem;"><div class="hat"></div></div>
+                    <img src="imgs/ic8_55x.png">
+                    <h2>48 HRS BACKUP</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide6">
+        <div class="container-fluid" style="padding: 0">
+            <div class="slide6_content">
+                <p>JENNIFER F., CASPER CUSTOMER</p>
+                <h2>"Unbeatable price, and it’s super comfortable"</h2>
+                <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide7" style="padding: 0">
+        <div class="container" style="padding: 0">
+            <div class="slide_heading" style="margin: 600px 0 70px 0">
+                <h2>RAISE YOUR EXPECTATIONS</h2>
+                <p>REFINED VIEWING EXPERIENCE</p>
+            </div>
+            <div class="row">
+                <div class="slide7_left col-xl-6">
+                    <h2>42 FRONT CAMERA FOR PERFECT SHOT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui official.<br/><br/>
+                        The zip-off cover is made with an upholstery-grade hybrid knit that’s
+                        designed to stand up to years of use. Plus, the rich charcoal
+                        color hides spills or splotches. Hello, breakfast in bed.</p>
+                </div>
+                <div class="slide7_right col-xl-6">
+                    <img src="imgs/camera.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-12 slide8" style="padding: 0">
+            <div class="container">
+                <div class="slide_heading">
+                    <h2 style="color: #fff;padding-top: 100px">RAISE YOUR EXPECTATIONS</h2>
+                    <p>REFINED VIEWING EXPERIENCE</p>
+                </div>
+                <div class="col-xl-4" style="float: left">
+                    <div class="slide8_content">
+                        <span>1</span>
+                        <h2>TRIPLE CAMERA</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sem quam, laoreet et efficitur ornare, porta ac odio.
+                            Suspendisse id massa eu felis tincidunt molestie ac vel tortor</p>
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+                <div class="col-xl-4" style="float: left">
+                    <div class="slide8_content">
+                        <span>2</span>
+                        <h2>Ultra Game Mode</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sem quam, laoreet et efficitur ornare, porta ac odio.
+                            Suspendisse id massa eu felis tincidunt molestie ac vel tortor</p>
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+                <div class="col-xl-4" style="float: left">
+                    <div class="slide8_content">
+                        <span>3</span>
+                        <h2>Super AMOLED Display</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sem quam, laoreet et efficitur ornare, porta ac odio.
+                            Suspendisse id massa eu felis tincidunt molestie ac vel tortor</p>
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide9">
+        <div class="container">
+            <div class="slide_heading">
+                <h2>INNOVATIVE QUALITIES & FEATURES</h2>
+                <p>SHOW YOURS TO THE WORLD</p>
+            </div>
+            <div class="col-xl-4 slide9_left">
+                <div class="left_content slide9_content">
+                    <img src="imgs/ic5_grande.png">
+                    <h2>INTELLIGENT PROCESSOR</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="left_content slide9_content">
+                    <img src="imgs/ic6_grande.png">
+                    <h2>HD SURROUND AUDIO</h2>
+                    <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="left_content slide9_content">
+                    <img src="imgs/ic3_grande.png">
+                    <h2>STYLISH BEVEL EDGES</h2>
+                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                </div>
+            </div>
+            <div class="col-xl-4 slide9_mid">
+                <img src="imgs/center-img_eb064c43-efaf-4d56-90df-f89acfdf85fe_grande.png"/>
+            </div>
+            <div class="col-xl-4 slide9_rigth">
+                <div class="rigth_content slide9_content">
+                    <img src="imgs/ic1_grande.png">
+                    <h2>4.0 WIFI SPECS</h2>
+                    <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="right_content slide9_content">
+                    <img src="imgs/ic4_grande.png">
+                    <h2>MULIT TASKING & THREADING</h2>
+                    <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                </div>
+                <div class="right_content slide9_content">
+                    <img src="imgs/ic2_grande.png">
+                    <h2>CLOUD STORAGE</h2>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 slide10">
+        <div class="container">
+            <div class="slide_heading">
+                <h2>NEW ARRIVALS</h2>
+                <p>FIND THE PERFECT PHONE FOR YOU</p>
+            </div>
+            <div class="tab-content1">
+                <div class="cinema1" id="cinema1">
+                    <div class="product">
+                        <div class="slide10_product">
+                            <div class="image1">
+                                <img src="imgs/p5_large.jpg"/>
+                                <div class="image">
+                                    <img src="imgs/p7_large.jpg">
+                                </div>
+                                <div class="atc">
+                                    <a href="#">Quick View</a>
+                                    <a href="#" style="background-color: #ffffff;color: #333333">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="information_product">
+                                <a href="#">Apple iPhone XR</a>
+                                <h2>$101.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="slide10_product">
+                            <div class="image1">
+                                <img src="imgs/p5_large.jpg"/>
+                                <div class="image">
+                                    <img src="imgs/p7_large.jpg">
+                                </div>
+                                <div class="atc">
+                                    <a href="#">Quick View</a>
+                                    <a href="#" style="background-color: #ffffff;color: #333333">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="information_product">
+                                <a href="#">Apple iPhone XR</a>
+                                <h2>$101.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="slide10_product">
+                            <div class="image1">
+                                <img src="imgs/p5_large.jpg"/>
+                                <div class="image">
+                                    <img src="imgs/p7_large.jpg">
+                                </div>
+                                <div class="atc">
+                                    <a href="#">Quick View</a>
+                                    <a href="#" style="background-color: #ffffff;color: #333333">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="information_product">
+                                <a href="#">Apple iPhone XR</a>
+                                <h2>$101.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="slide10_product">
+                            <div class="image1">
+                                <img src="imgs/p5_large.jpg"/>
+                                <div class="image">
+                                    <img src="imgs/p7_large.jpg">
+                                </div>
+                                <div class="atc">
+                                    <a href="#">Quick View</a>
+                                    <a href="#" style="background-color: #ffffff;color: #333333">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="information_product">
+                                <a href="#">Apple iPhone XR</a>
+                                <h2>$101.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="slide10_product">
+                            <div class="image1">
+                                <img src="imgs/p5_large.jpg"/>
+                                <div class="image">
+                                    <img src="imgs/p7_large.jpg">
+                                </div>
+                                <div class="atc">
+                                    <a href="#">Quick View</a>
+                                    <a href="#" style="background-color: #ffffff;color: #333333">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="information_product">
+                                <a href="#">Apple iPhone XR</a>
+                                <h2>$101.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="slide10_product">
+                            <div class="image1">
+                                <img src="imgs/p5_large.jpg"/>
+                                <div class="image">
+                                    <img src="imgs/p7_large.jpg">
+                                </div>
+                                <div class="atc">
+                                    <a href="#">Quick View</a>
+                                    <a href="#" style="background-color: #ffffff;color: #333333">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="information_product">
+                                <a href="#">Apple iPhone XR</a>
+                                <h2>$101.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav1">
+                <button onclick="tabs1(this,0)" class="item">
+                    <i style="float: right" class="fas fa-long-arrow-alt-left"></i>
+                </button>
+                <button onclick="tabs1(this,1)" class="item">
+                    <i style="float: left;" class="fas fa-long-arrow-alt-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="slide11">
+        <div class="container-fluid" style="padding: 0">
+            <div class="slide11_left">
+                <div class="content_1">
+                    <img src="imgs/gal1_1920X.jpg"/>
+                    <div class="img_content">
+                        <div class="text">
+                            <h6>Dot Notch Display</h6>
+                            <h2>Smooth Control</h2>
+                            <a href="#" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_2">
+                    <img src="imgs/gal2_1920X.jpg"/>
+                    <div class="img_content">
+                        <div class="text" style="left: 50%">
+                            <h6>V12 Pro</h6>
+                            <h2>Now with 12<br/> MP Camera</h2>
+                            <a href="#" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_2">
+                    <img src="imgs/gal3_1920X.jpg"/>
+                    <div class="img_content">
+                        <div class="text" style="left: 50%">
+                            <h6>Beautiful Finish</h6>
+                            <h2>Seven Layer <br/>Color</h2>
+                            <a href="#" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_1">
+                    <img src="imgs/gal4_1920X.jpg"/>
+                    <div class="img_content">
+                        <div class="text">
+                            <h6>High Speed</h6>
+                            <h2>Power of Android</h2>
+                            <a href="#" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide11_right">
+                <div class="content_3">
+                    <img src="imgs/gal5_1920X.jpg"/>
+                    <div class="img_content">
+                        <div class="text" style="top: 80%">
+                            <h6>Curved Ceramic Body</h6>
+                            <h2>Extremely Thin<br/> and Light</h2>
+                            <a href="#" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide12">
+        <div class="container" style="padding: 0">
+            <div class="slide_heading" style="margin-top: 100px">
+                <h2 style="color: #ffffff">SEE WHY CUSTOMERS LOVE THE OUR MOBILES</h2>
+                <p style="color: #ffffff">DESIGNED TO PERFECTION</p>
+            </div>
+            <div class="slide12_left">
+                <img src="imgs/tab-image_1920x.png"/>
+            </div>
+            <div class="slide12_right">
+                <div class="box" style="margin-top: 50px">
+                    <div class="h5">
+                        <a href="#">New Gradient Color Finishes</a>
+                    </div>
+                    <div class="block">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident,
+                            sunt in culpa qui official.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="h5">
+                        <a href="#">Four-sided curved ceramic body</a>
+                    </div>
+                    <div class="block" style="display: none">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident,
+                            sunt in culpa qui official.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="h5">
+                        <a href="#">4000mAh high-capacity battery</a>
+                    </div>
+                    <div class="block" style="display: none">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident,
+                            sunt in culpa qui official.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="h5">
+                        <a href="#">Fully hidden camera lens</a>
+                    </div>
+                    <div class="block" style="display: none">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident,
+                            sunt in culpa qui official.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide13">
+        <div class="container">
+            <div class="slide_heading" style="margin-top: 100px">
+                <h2>WELCOME TO PHONO SUPPORT. WE'RE HERE TO HELP.</h2>
+                <p>ALWAYS ON YOUR SIDE WHEN YOU NEED HELP</p>
+            </div>
+            <div class="slide13_left">
+                <img src="imgs/phone-icn_75x75.png">
+                <div class="telchat">
+                    <h6>Have Any Doubts?</h6>
+                    <h2>Call Us Now</h2>
+                    <p>This Number is Toll Free<br/>0962681496</p>
+                </div>
+                <div class="more">
+                    <a href="#">Know More</a>
+                </div>
+            </div>
+            <div class="slide13_right">
+                <img src="imgs/chat-icn_75x75.png">
+                <div class="telchat">
+                    <h6>WANNA TALK TO US?</h6>
+                    <h2>LIVE CHAT NOW</h2>
+                    <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                </div>
+                <div class="more">
+                    <a href="#">Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function tabs(e,number) {
+        document.getElementById("cinema").style.left = -number*33.33+"%";
+    }
+    function tabs1(e,number) {
+        document.getElementById("cinema1").style.left = -number*556+"px";
+    }
+    /*function f() {
+        if ($("#phono").style.height = 4800+"px"){
+            $(".slide8_content").style.display = "block";
+        }
+    }*/
+</script>
+</html>
