@@ -79,10 +79,20 @@ body{
     text-decoration: none;
     transition: background-color 1000ms;
 }
+
+.slide_right a{
+    border: 2px solid #ffffff !important;
+    background-color: #111113 !important;
+    color: #ffffff !important;
+}
 .slide_left a:hover{
-    border-color: #eb0028;
-    background: #eb0028;
+    border-color: #eb0028 !important;
+    background: #eb0028 !important;
     color: #fff;
+}
+.slide_arrow i{
+    font-size: 30px;
+    color: #eb0028;
 }
 .slide2{
     border: 1px solid #e4e4e4;
