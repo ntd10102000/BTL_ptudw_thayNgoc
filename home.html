@@ -71,7 +71,7 @@
                         </div>
                         <div class="carousel-item">
                             <img src="imgs/phono-slider-3_2000x.jpg" >
-                            <div class="slide_left col-xl-7 slide_right animated wow fadeInRight" style="float: right">
+                            <div class="slide_left col-xl-7 slid    e_right animated wow fadeInRight" style="float: right">
                                 <h5 class="slide-text" style="display:inline-block;font-size: 20px;color:#ffffff;font-weight: 600;margin-bottom: 25px">
                                     4K RESOLUTION
                                 </h5>
@@ -643,6 +643,7 @@
             </div>
         </div>
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-long-arrow-alt-up"></i></button>
 </body>
 <script type="text/javascript">
     function tabs(e,number) {
@@ -659,5 +660,24 @@
     $( document ).ready(function() {
         new WOW().init();
     });
+
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+            $('#myBtn').fadeIn();
+        } else {
+            $('#myBtn').fadeOut();
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        $("#myBtn").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    }
 </script>
 </html>
