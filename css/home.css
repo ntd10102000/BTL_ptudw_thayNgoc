@@ -16,6 +16,7 @@ body{
 .logo{
     float: left;
     width: 30%;
+    height: 60px;
 }
 .right{
     float: right;
@@ -27,6 +28,10 @@ body{
     text-decoration: none;
     color: #343132;
     font-weight: 700;
+}
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
 }
 .menu{
     float: right;
@@ -885,4 +890,52 @@ body{
 }
 #myBtn:hover {
     background-color: #eb0028;
+}
+.star{
+    margin-left: 82px;
+    float: left;
+}
+.star i{
+    color: orange;
+    font-size: 0.8em;
+}
+.sub-menu{
+    position: absolute;
+    width: 75%;
+    left: 25%;
+    padding-top: 15px;
+    z-index: 1;
+}
+.sub-menu .column{
+    padding: 40px 40px 40px 40px;
+    float: left;
+    width: 95%;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.15);
+    background-color: #ffffff;
+}
+.column .column_content{
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    color: #000;
+}
+.column_content a h3{
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.column_content a p{
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.column_content img{
+    max-width: 100%;
+}
+.column_content a:hover{
+    color: #eb0028;
 }
