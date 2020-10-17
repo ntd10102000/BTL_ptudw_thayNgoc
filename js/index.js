@@ -32,3 +32,11 @@ $('.main-menu').mouseenter(function(){
 $('.main-menu').mouseleave(function(){
     $(this).find('.sub-menu').slideUp();
 });
+
+$('.main-block').click(function(){
+    $(this).find('.sub-block').slideToggle();
+});
+$('.main-block').click(function(){
+    $(this).stopPropagation();
+    $(this).find('.sub-block').slideToggle();
+});
