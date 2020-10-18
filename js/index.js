@@ -37,6 +37,6 @@ $('.main-block').click(function(){
     $(this).find('.sub-block').slideToggle();
 });
 $('.main-block').click(function(){
-    $(this).stopPropagation();
+    $(this).stopPropagation()
     $(this).find('.sub-block').slideToggle();
 });
