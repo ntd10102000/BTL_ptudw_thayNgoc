@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>AD3H Store</title>
@@ -12,7 +13,18 @@
     <script type="text/javascript" src="libs/bootstrapv4.5/js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/home.css">
 </head>
+
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h4>Bạn muốn truy cập với quyền là</h4>
+        <div style="width:50%;float:left">
+            <a style="float: right;" href="admin/login.php" class="btn btn-danger">Admin</a>
+        </div>
+        <div style="width:50%;float:left">
+            <a style="float: left;" href="admin/login_khach.php" class="btn btn-primary">Khách</a>
+        </div>
+    </div>
     <section class="col-xl-12 header">
         <div class="container-fluid">
             <div class="logo">
@@ -25,36 +37,84 @@
                         <div class="sub-menu">
                             <div class="column">
                                 <div class="column_content">
-                                    <a href="#"><h3>SSD CARD</h3></a>
-                                    <a href="#"><p>Sony</p></a>
-                                    <a href="#"><p>Teflon</p></a>
-                                    <a href="#"><p>Tfpro</p></a>
-                                    <a href="#"><p>Transcend</p></a>
-                                    <a href="#"><p>SanDisk</p></a>
+                                    <a href="#">
+                                        <h3>SSD CARD</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Sony</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Teflon</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Tfpro</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Transcend</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>SanDisk</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>POWER BANKS</h3></a>
-                                    <a href="#"><p>Lenovo</p></a>
-                                    <a href="#"><p>Kodak</p></a>
-                                    <a href="#"><p>Portronics</p></a>
-                                    <a href="#"><p>Pebble</p></a>
-                                    <a href="#"><p>Moerdon</p></a>
+                                    <a href="#">
+                                        <h3>POWER BANKS</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Lenovo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Kodak</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Portronics</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Pebble</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Moerdon</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>EARPHONE</h3></a>
-                                    <a href="#"><p>Billetera</p></a>
-                                    <a href="#"><p>Ubon</p></a>
-                                    <a href="#"><p>Rewy</p></a>
-                                    <a href="#"><p>Boat</p></a>
-                                    <a href="#"><p>Philips</p></a>
+                                    <a href="#">
+                                        <h3>EARPHONE</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Billetera</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Ubon</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Rewy</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Boat</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Philips</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>ANDROID</h3></a>
-                                    <a href="#"><p>Karbonn</p></a>
-                                    <a href="#"><p>Oppo</p></a>
-                                    <a href="#"><p>Tecno</p></a>
-                                    <a href="#"><p>Zopo</p></a>
-                                    <a href="#"><p>Apple</p></a>
+                                    <a href="#">
+                                        <h3>ANDROID</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Karbonn</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Oppo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Tecno</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Zopo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Apple</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -63,31 +123,67 @@
                         <div class="sub-menu">
                             <div class="column">
                                 <div class="column_content">
-                                    <a href="#"><h3>SMART PHONE</h3></a>
-                                    <a href="#"><p>Swipe</p></a>
-                                    <a href="#"><p>Ziox</p></a>
-                                    <a href="#"><p>Nokia</p></a>
-                                    <a href="#"><p>Motorola</p></a>
-                                    <a href="#"><p>Apple</p></a>
+                                    <a href="#">
+                                        <h3>SMART PHONE</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Swipe</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Ziox</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Nokia</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Motorola</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Apple</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>Headphone</h3></a>
-                                    <a href="#"><p>Philips</p></a>
-                                    <a href="#"><p>Sony</p></a>
-                                    <a href="#"><p>Sennheiser</p></a>
-                                    <a href="#"><p>Signature</p></a>
-                                    <a href="#"><p>Motoro</p></a>
+                                    <a href="#">
+                                        <h3>Headphone</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Philips</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Sony</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Sennheiser</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Signature</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Motoro</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>Pen drive</h3></a>
-                                    <a href="#"><p>Phenovo</p></a>
-                                    <a href="#"><p>Mimoco</p></a>
-                                    <a href="#"><p>Lexar</p></a>
-                                    <a href="#"><p>Toogoo</p></a>
-                                    <a href="#"><p>Verbatim</p></a>
+                                    <a href="#">
+                                        <h3>Pen drive</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Phenovo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Mimoco</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Lexar</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Toogoo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Verbatim</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <img src="https://cdn.shopify.com/s/files/1/0104/6917/9492/files/menu-1-1_2000x.jpg?v=1555046586"/>
+                                    <img src="https://cdn.shopify.com/s/files/1/0104/6917/9492/files/menu-1-1_2000x.jpg?v=1555046586" />
                                 </div>
                             </div>
                         </div>
@@ -96,31 +192,67 @@
                         <div class="sub-menu">
                             <div class="column">
                                 <div class="column_content">
-                                    <a href="#"><h3>KEYPAD</h3></a>
-                                    <a href="#"><p>Ikall</p></a>
-                                    <a href="#"><p>Peace</p></a>
-                                    <a href="#"><p>Adcom</p></a>
-                                    <a href="#"><p>Bloom</p></a>
-                                    <a href="#"><p>Apple</p></a>
+                                    <a href="#">
+                                        <h3>KEYPAD</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Ikall</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Peace</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Adcom</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Bloom</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Apple</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>TOUCH MOBILE</h3></a>
-                                    <a href="#"><p>Nokia\</p></a>
-                                    <a href="#"><p>Motoro</p></a>
-                                    <a href="#"><p>Xiaomi</p></a>
-                                    <a href="#"><p>Karbonn</p></a>
-                                    <a href="#"><p>Lenovo</p></a>
+                                    <a href="#">
+                                        <h3>TOUCH MOBILE</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Nokia\</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Motoro</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Xiaomi</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Karbonn</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Lenovo</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>SMART PHONE</h3></a>
-                                    <a href="#"><p>10.or</p></a>
-                                    <a href="#"><p>Intex</p></a>
-                                    <a href="#"><p>Asus</p></a>
-                                    <a href="#"><p>Nokia</p></a>
-                                    <a href="#"><p>Vivo</p></a>
+                                    <a href="#">
+                                        <h3>SMART PHONE</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>10.or</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Intex</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Asus</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Nokia</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Vivo</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <img style="max-width: 150%;margin-left: -80px" src="https://cdn.shopify.com/s/files/1/0104/6917/9492/files/menu-3_2000x.jpg?v=1555050470"/>
+                                    <img style="max-width: 150%;margin-left: -80px" src="https://cdn.shopify.com/s/files/1/0104/6917/9492/files/menu-3_2000x.jpg?v=1555050470" />
                                 </div>
                             </div>
                         </div>
@@ -129,56 +261,128 @@
                         <div class="sub-menu">
                             <div class="column">
                                 <div class="column_content">
-                                    <a href="#"><h3>TEMPARD GLASS</h3></a>
-                                    <a href="#"><p>ikazen</p></a>
-                                    <a href="#"><p>Amzer</p></a>
-                                    <a href="#"><p>Orzly</p></a>
-                                    <a href="#"><p>Amzer</p></a>
-                                    <a href="#"><p>Apple</p></a>
-                                    <a href="#"><h3>DISPLAY SCREEN</h3></a>
-                                    <a href="#"><p>Apple</p></a>
-                                    <a href="#"><p>Lively</p></a>
-                                    <a href="#"><p>Sgc</p></a>
-                                    <a href="#"><p>Saco</p></a>
-                                    <a href="#"><p>Powerpak</p></a>
+                                    <a href="#">
+                                        <h3>TEMPARD GLASS</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>ikazen</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Amzer</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Orzly</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Amzer</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Apple</p>
+                                    </a>
+                                    <a href="#">
+                                        <h3>DISPLAY SCREEN</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Apple</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Lively</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Sgc</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Saco</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Powerpak</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>SCRATCH GUARD</h3></a>
-                                    <a href="#"><p>ECell</p></a>
-                                    <a href="#"><p>Street</p></a>
-                                    <a href="#"><p>Mo</p></a>
-                                    <a href="#"><p>Armouz</p></a>
-                                    <a href="#"><p>Fross</p></a>
-                                    <a href="#"><h3>POWER BANKS</h3></a>
-                                    <a href="#"><p>Ambrane</p></a>
-                                    <a href="#"><p>Intex</p></a>
-                                    <a href="#"><p>Lapguard</p></a>
-                                    <a href="#"><p>Lenovo</p></a>
-                                    <a href="#"><p>Pebble</p></a>
+                                    <a href="#">
+                                        <h3>SCRATCH GUARD</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>ECell</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Street</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Mo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Armouz</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Fross</p>
+                                    </a>
+                                    <a href="#">
+                                        <h3>POWER BANKS</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Ambrane</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Intex</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Lapguard</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Lenovo</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Pebble</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <a href="#"><h3>EARPHONES</h3></a>
-                                    <a href="#"><p>Sony</p></a>
-                                    <a href="#"><p>Boat</p></a>
-                                    <a href="#"><p>Rewy</p></a>
-                                    <a href="#"><p>Apple</p></a>
-                                    <a href="#"><p>Xiaomi</p></a>
-                                    <a href="#"><h3>MINI SPEAKER</h3></a>
-                                    <a href="#"><p>Evidson</p></a>
-                                    <a href="#"><p>Speaker</p></a>
-                                    <a href="#"><p>Quantum</p></a>
-                                    <a href="#"><p>PhotronX</p></a>
-                                    <a href="#"><p>Hiper song</p></a>
+                                    <a href="#">
+                                        <h3>EARPHONES</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Sony</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Boat</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Rewy</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Apple</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Xiaomi</p>
+                                    </a>
+                                    <a href="#">
+                                        <h3>MINI SPEAKER</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>Evidson</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Speaker</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Quantum</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>PhotronX</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>Hiper song</p>
+                                    </a>
                                 </div>
                                 <div class="column_content">
-                                    <img src="https://cdn.shopify.com/s/files/1/0104/6917/9492/files/menu-2-2_2000x.jpg?v=1555047572"/>
+                                    <img src="https://cdn.shopify.com/s/files/1/0104/6917/9492/files/menu-2-2_2000x.jpg?v=1555047572" />
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li><a href="#">Pages</a></li>
                     <li><a href="#"><i class="fas fa-search"></i></a></li>
-                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a onclick="openNav()"><i class="fas fa-user"></i></a></li>
                     <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
                 </ul>
             </div>
@@ -190,7 +394,7 @@
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="imgs/phono-slider-1_2000x.jpg" >
+                            <img src="imgs/phono-slider-1_2000x.jpg">
                             <div class="slide_left col-xl-7 slide_right animated wow fadeInRight" style="float: right">
                                 <h5 class="slide-text" style="display:inline-block;font-size: 20px;color:#ffffff;font-weight: 600;margin-bottom: 25px">
                                     4K RESOLUTION
@@ -204,7 +408,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="imgs/phono-slider-2_2000x.jpg" >
+                            <img src="imgs/phono-slider-2_2000x.jpg">
                             <div class="slide_left col-xl-7 animated wow fadeInLeft">
                                 <h5 class="slide-text" style="display:inline-block;font-size: 20px;color:#212121;font-weight: 600;margin-bottom: 25px">
                                     4K RESOLUTION
@@ -218,7 +422,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="imgs/phono-slider-3_2000x.jpg" >
+                            <img src="imgs/phono-slider-3_2000x.jpg">
                             <div class="slide_left col-xl-7 slid    e_right animated wow fadeInRight" style="float: right">
                                 <h5 class="slide-text" style="display:inline-block;font-size: 20px;color:#ffffff;font-weight: 600;margin-bottom: 25px">
                                     4K RESOLUTION
@@ -348,25 +552,33 @@
                     <img src="imgs/horizontal-phone_1920X.png">
                 </div>
                 <div class="col-xl-3 slide5_content animated wow fadeInUp">
-                    <div class="chi"><div class="hat"></div></div>
+                    <div class="chi">
+                        <div class="hat"></div>
+                    </div>
                     <img src="imgs/ic9_db35a001-6739-4b9f-b1d9-12a825ddf8d9_55x.png">
                     <h2>48 MP CAMERA</h2>
                     <p>48 MP camera sparked a new race of smartphone manufacturers?</p>
                 </div>
                 <div class="col-xl-3 slide5_content animated wow fadeInUp">
-                    <div class="chi" style="height: 11.8125rem;"><div class="hat"></div></div>
+                    <div class="chi" style="height: 11.8125rem;">
+                        <div class="hat"></div>
+                    </div>
                     <img src="imgs/ic10_55x.png">
                     <h2>DUAL SIM CARDS</h2>
                     <p>Everything You Need to Know About Dual SIM Phones for Travel.</p>
                 </div>
                 <div class="col-xl-3 slide5_content animated wow fadeInUp">
-                    <div class="chi"><div class="hat"></div></div>
+                    <div class="chi">
+                        <div class="hat"></div>
+                    </div>
                     <img src="imgs/ic7_55x.png">
                     <h2>SCORPION PROCESSOR</h2>
                     <p>Qualcomm announces Scorpion ARM processor.</p>
                 </div>
                 <div class="col-xl-3 slide5_content animated wow fadeInUp">
-                    <div class="chi" style="height: 11.8125rem;"><div class="hat"></div></div>
+                    <div class="chi" style="height: 11.8125rem;">
+                        <div class="hat"></div>
+                    </div>
                     <img src="imgs/ic8_55x.png">
                     <h2>48 HRS BACKUP</h2>
                     <p>REBORN 48 HRS BACKUP AND HQ Neckband Wireless With Mic Headphones/Earphones</p>
@@ -396,20 +608,20 @@
                         It’s powered by Qualcomm’s premium Snapdragon 865 chipset and comes with a 6.67-inch Super-AMOLED display with FHD+ resolution.
                         The rear camera module combines a primary 108MP shooter with an ultra-wide and not one but two tele-cameras for optimized performance
                         across the zoom range, achieving stellar results in our DXOMARK Camera test.
-                        <br/><br/>
+                        <br /><br />
                         In video mode, the Mi 10 Pro front camera is capable of recording footage at 1080p resolution and 30 frames per second. Read the full review to
                         find out if the Xiaomi’s front camera can match the rear module’s excellent results.</p>
                 </div>
                 <div class="slide7_right col-xl-6">
-                    <img src="imgs/camera.jpg"/>
+                    <img src="imgs/camera.jpg" />
                 </div>
             </div>
         </div>
         <div class="col-xl-12 slide8" style="padding: 0">
             <div class="container">
                 <div class="slide_heading">
-                    <h2 style="color: #fff;padding-top: 100px">RAISE YOUR EXPECTATIONS</h2>
-                    <p>REFINED VIEWING EXPERIENCE</p>
+                    <h2 style="color: #fff;padding-top: 100px">LOSE YOURSELF IN ENTERTAINMENT</h2>
+                    <p>SPEND LESS ENJOY MORE</p>
                 </div>
                 <div class="col-xl-4" style="float: left">
                     <div class="slide8_content animated wow fadeInUp">
@@ -467,7 +679,7 @@
                 </div>
             </div>
             <div class="col-xl-4 slide9_mid">
-                <img src="imgs/center-img_eb064c43-efaf-4d56-90df-f89acfdf85fe_grande.png"/>
+                <img src="imgs/center-img_eb064c43-efaf-4d56-90df-f89acfdf85fe_grande.png" />
             </div>
             <div class="col-xl-4 slide9_rigth animated wow fadeInRight">
                 <div class="rigth_content slide9_content">
@@ -499,7 +711,7 @@
                     <div class="product">
                         <div class="slide10_product">
                             <div class="image1">
-                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/08/redmi-note-8-2.jpg"/>
+                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/08/redmi-note-8-2.jpg" />
                                 <div class="image">
                                     <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/08/redmi-note-8-1.jpg">
                                 </div>
@@ -524,7 +736,7 @@
                     <div class="product">
                         <div class="slide10_product">
                             <div class="image1">
-                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/09/gold.jpg"/>
+                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/09/gold.jpg" />
                                 <div class="image">
                                     <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/09/space.jpg">
                                 </div>
@@ -549,7 +761,7 @@
                     <div class="product">
                         <div class="slide10_product">
                             <div class="image1">
-                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/11/a20s.jpg"/>
+                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/11/a20s.jpg" />
                                 <div class="image">
                                     <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/11/a20s2.jpg">
                                 </div>
@@ -574,7 +786,7 @@
                     <div class="product">
                         <div class="slide10_product">
                             <div class="image1">
-                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/realme-x50-5g.jpg"/>
+                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/realme-x50-5g.jpg" />
                                 <div class="image">
                                     <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/realme-thumb1.jpg">
                                 </div>
@@ -599,7 +811,7 @@
                     <div class="product">
                         <div class="slide10_product">
                             <div class="image1">
-                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/vsmart-joy-3-den.jpg"/>
+                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/vsmart-joy-3-den.jpg" />
                                 <div class="image">
                                     <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/vsmart-joy-3-trang.jpg">
                                 </div>
@@ -624,7 +836,7 @@
                     <div class="product">
                         <div class="slide10_product">
                             <div class="image1">
-                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/10/mc-xr-yellow.jpg"/>
+                                <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/10/mc-xr-yellow.jpg" />
                                 <div class="image">
                                     <img src="https://cdn.mobilecity.vn/mobilecity-vn/images/2019/10/mc-xr-black.jpg">
                                 </div>
@@ -662,7 +874,7 @@
         <div class="container-fluid" style="padding: 0">
             <div class="slide11_left">
                 <div class="content_1">
-                    <img src="imgs/gal1_1920X.jpg"/>
+                    <img src="imgs/gal1_1920X.jpg" />
                     <div class="img_content">
                         <div class="text">
                             <h6>Dot Notch Display</h6>
@@ -672,27 +884,27 @@
                     </div>
                 </div>
                 <div class="content_2">
-                    <img src="imgs/gal2_1920X.jpg"/>
+                    <img src="imgs/gal2_1920X.jpg" />
                     <div class="img_content">
                         <div class="text" style="left: 50%">
                             <h6>V12 Pro</h6>
-                            <h2>Now with 12<br/> MP Camera</h2>
+                            <h2>Now with 12<br /> MP Camera</h2>
                             <a href="#" class="btn">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="content_2">
-                    <img src="imgs/gal3_1920X.jpg"/>
+                    <img src="imgs/gal3_1920X.jpg" />
                     <div class="img_content">
                         <div class="text" style="left: 50%">
                             <h6>Beautiful Finish</h6>
-                            <h2>Seven Layer <br/>Color</h2>
+                            <h2>Seven Layer <br />Color</h2>
                             <a href="#" class="btn">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="content_1">
-                    <img src="imgs/gal4_1920X.jpg"/>
+                    <img src="imgs/gal4_1920X.jpg" />
                     <div class="img_content">
                         <div class="text">
                             <h6>High Speed</h6>
@@ -704,11 +916,11 @@
             </div>
             <div class="slide11_right">
                 <div class="content_3">
-                    <img src="imgs/gal5_1920X.jpg"/>
+                    <img src="imgs/gal5_1920X.jpg" />
                     <div class="img_content">
                         <div class="text" style="top: 80%">
                             <h6>Curved Ceramic Body</h6>
-                            <h2>Extremely Thin<br/> and Light</h2>
+                            <h2>Extremely Thin<br /> and Light</h2>
                             <a href="#" class="btn">View More</a>
                         </div>
                     </div>
@@ -723,7 +935,7 @@
                 <p style="color: #ffffff">DESIGNED TO PERFECTION</p>
             </div>
             <div class="slide12_left animated wow fadeInLeft">
-                <img src="imgs/tab-image_1920x.png"/>
+                <img src="imgs/tab-image_1920x.png" />
             </div>
             <div class="slide12_right animated wow fadeInRight">
                 <div class="box" style="margin-top: 50px">
@@ -816,7 +1028,7 @@
                 <div class="telchat">
                     <h6>Have Any Doubts?</h6>
                     <h2>Call Us Now</h2>
-                    <p>This Number is Toll Free<br/>0962681496</p>
+                    <p>This Number is Toll Free<br />0962681496</p>
                 </div>
                 <div class="more">
                     <a href="#">Know More</a>
@@ -842,7 +1054,7 @@
                 <h4>Get our updates always fast</h4>
                 <h5>Your personal data will be always keep safe</h5>
                 <form method="post" action="#">
-                    <input type="email" name="email" placeholder="Email..." required/>
+                    <input type="email" name="email" placeholder="Email..." required />
                     <button type="submit"><i style="margin-left: -5px" class="fas fa-chevron-right"></i></button>
                 </form>
                 <ul class="footer_menu">
@@ -859,4 +1071,5 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-long-arrow-alt-up"></i></button>
 </body>
 <script type="text/javascript" src="js/index.js"></script>
+
 </html>
